@@ -1,0 +1,4 @@
+C:\Users\User\Documents\Internet programing\Project2\Truck.Form\obj\Debug\net6.0-windows\Truck.Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Internet programing\Project2\Truck.Form\obj\Debug\net6.0-windows\Truck.Form.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Internet programing\Project2\Truck.Form\obj\Debug\net6.0-windows\Truck.Form.AssemblyInfo.cs
+C:\Users\User\Documents\Internet programing\Project2\Truck.Form\obj\Debug\net6.0-windows\Truck.Form.csproj.CoreCompileInputs.cache
