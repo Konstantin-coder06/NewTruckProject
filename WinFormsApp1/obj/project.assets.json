@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "TruckControllers/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/TruckControllers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TruckControllers.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "TruckControllers/1.0.0": {
+      "type": "project",
+      "path": "../TruckControllers.csproj",
+      "msbuildProject": "../TruckControllers.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "TruckControllers >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

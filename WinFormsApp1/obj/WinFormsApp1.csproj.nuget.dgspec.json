@@ -4,6 +4,21 @@
     "C:\\Users\\User\\Documents\\Internet programing\\Project2\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
+    "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj",
+        "projectName": "TruckControllers",
+        "projectPath": "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Users\\User\\Documents\\Internet programing\\Project2\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\Internet programing\\Project2\\TruckControllers.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
