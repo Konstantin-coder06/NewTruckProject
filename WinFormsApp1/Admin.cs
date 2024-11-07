@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TruckControllers;
+using TruckControllers.Controllers;
 
 namespace WinFormsApp1
 {
@@ -17,7 +19,7 @@ namespace WinFormsApp1
             richTextBox1.ReadOnly = true;
             InitializeComponent();
         }
-        ControllerDrivers controllerDrivers;
+       DriverController controllerDrivers;
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             richTextBox1.Text = controllerDrivers.Drivers();
